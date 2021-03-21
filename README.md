@@ -32,7 +32,7 @@ I have always been fascinated by computers and I stared programming after high s
 
 
 <a href="https://github.com/bhavy2908">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavy2908&theme=tokyonight&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.ap/api/top-langs/?username=bhavy2908&theme=tokyonight&hide_border=true" />
 </a>
 <a href="https://github.com/bhavy2908">
  <img align="center" src="https://github-readme-stats.vercel.app/api?username=bhavy2908&show_icons=true&theme=tokyonight&hide_border=true" alt="Bhavy's github stats"/>
