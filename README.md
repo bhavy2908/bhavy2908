@@ -1,5 +1,5 @@
 # Hi I'm Bhavy 👋 
-### I'm a CSE sophomore at [JIIT, Noida](www.jiit.ac.in)
+### I'm a CSE sophomore at [JIIT, Noida](https://www.jiit.ac.in)
 
 I have always been fascinated by computers and I stared programming after high school. I love learing about the core fundamentals of computers and how they work.
 
