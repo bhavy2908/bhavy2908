@@ -1,7 +1,7 @@
 # Hi I'm Bhavy 👋 
 ### I'm a CSE sophomore at [JIIT, Noida](https://www.jiit.ac.in)
 
-I have always been fascinated by computers and I stared programming after high school. I love learing about the core fundamentals of computers and how they work.
+Results oriented full-stack developer with experience of making high quality websites and mobile applications, and with excellent knowledge of programming languages like Python, Java and C++.
 
  
 <a href="https://www.linkedin.com/in/bhavy2908/">
