@@ -1,5 +1,5 @@
 # Hi I'm Bhavy 👋 
-### I'm a CSE Junior at [JIIT, Noida](https://www.jiit.ac.in)
+### I'm a CSE Senior at [JIIT, Noida](https://www.jiit.ac.in)
 
 Results oriented full-stack developer with experience of making high quality websites and mobile applications, and with excellent knowledge of programming languages like Python, Java and C++.
 
