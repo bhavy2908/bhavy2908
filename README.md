@@ -22,11 +22,10 @@ No activity tracked
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=700&duration=2000&pause=1000000&color=C5D1DE&background=0000000&multiline=true&repeat=false&width=435&height=29&lines=My+Tech+Stack%3A)](https://git.io/typing-svg)
 
 <code><img height="50" src="https://api.iconify.design/logos:python.svg" alt="Python"></code>
-<code><img height="50" src="https://api.iconify.design/logos:react.svg" alt="React"></code>
-<code><img height="50" src="https://api.iconify.design/logos:nodejs.svg" alt="Node.js"></code>
-<code><img height="50" src="https://api.iconify.design/logos:javascript.svg" alt="JavaScript"></code>
 <code><img height="50" src="https://api.iconify.design/logos:typescript-icon.svg" alt="TypeScript"></code>
-<code><img height="50" src="https://api.iconify.design/logos:c-plusplus.svg" alt="C++"></code>
+<code><img height="50" src="https://api.iconify.design/logos:react.svg" alt="React"></code>
+<code><img height="50" src="https://api.iconify.design/logos:javascript.svg" alt="JavaScript"></code>
+<code><img height="50" src="https://api.iconify.design/logos:nodejs.svg" alt="Node.js"></code>
 <code><img height="50" src="https://api.iconify.design/logos:docker-icon.svg" alt="Docker"></code>
 <code><img height="50" src="https://api.iconify.design/logos:git-icon.svg" alt="Git"></code>
 <code><img height="50" src="https://api.iconify.design/logos:mongodb-icon.svg" alt="MongoDB"></code>
@@ -34,6 +33,8 @@ No activity tracked
 <code><img height="50" src="https://api.iconify.design/logos:tensorflow.svg" alt="TensorFlow"></code>
 <code><img height="50" src="https://api.iconify.design/logos:pytorch-icon.svg" alt="PyTorch"></code>
 <code><img height="50" src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras"></code>
+<code><img height="50" src="https://api.iconify.design/logos:c-plusplus.svg" alt="C++"></code>
+
 
 
 
