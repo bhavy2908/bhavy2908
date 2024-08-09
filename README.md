@@ -45,12 +45,12 @@ No activity tracked
 
 
 <a href="https://github.com/bhavy2908">
- <img align="right" src="https://github-readme-stats.vercel.app/api?username=bhavy2908&show_icons=true&theme=gotham&hide_border=true" alt="Bhavy's github stats"/>
+ <img align="right" src="https://github-readme-stats.vercel.app/api?username=bhavy2908&show_icons=true&theme=codeSTACKr&hide_border=true" alt="Bhavy's github stats"/>
 </a>
 
 
 <a href="https://github.com/bhavy2908">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavy2908&theme=gotham&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavy2908&theme=codeSTACKr&hide_border=true" />
 </a>
 
 <div>
