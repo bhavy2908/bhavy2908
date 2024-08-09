@@ -4,14 +4,14 @@ on:
   # for manual workflow trigger
   workflow_dispatch:
   schedule:
-    # runs every minute
-    - cron: "* * * * *"
+    # runs at 7:08 PM IST (1:38 PM UTC)
+    - cron: "38 13 * * *"
 
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master # this action name
+      - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
