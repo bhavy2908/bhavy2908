@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=30&pause=10000&color=2DBA4E&multiline=true&repeat=false&width=435&lines=Hi%2C+I'm+Bhavy!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=30&pause=10000&color=2DBA4E&multiline=true&repeat=false&width=435&lines=Hi%2C+I'm+Bhavy!)]()
 ### Experienced Full-Stack Developer
 
  
