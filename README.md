@@ -11,7 +11,9 @@
 </br>
 
 </br>
-📊 This week i spent my time on: <a href="https://wakatime.com/@ea9de753-9ec4-4230-b71f-572288e716bd"><img src="https://wakatime.com/badge/user/ea9de753-9ec4-4230-b71f-572288e716bd.svg" alt="Total time coded since Aug 9 2024" /></a>
+📊 This week i spent my time on:
+</br>
+<a href="https://wakatime.com/@ea9de753-9ec4-4230-b71f-572288e716bd"><img src="https://wakatime.com/badge/user/ea9de753-9ec4-4230-b71f-572288e716bd.svg" alt="Total time coded since Aug 9 2024" /></a>
 </br>
 </br>
 <!--START_SECTION:waka-->
