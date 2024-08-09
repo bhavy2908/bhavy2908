@@ -26,7 +26,7 @@ No activity tracked
 
 
 
-### Languages and Tools:  
+### My Tech Stack:  
 
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg" alt="Python"></code>
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg" alt="React"></code>
