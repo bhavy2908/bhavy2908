@@ -28,15 +28,27 @@ No activity tracked
 
 ### Languages and Tools:  
 
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg" alt="Python"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg" alt="React"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/node-dot-js.svg" alt="Node.js"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/typescript.svg" alt="TypeScript"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg" alt="JavaScript"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/cplusplus.svg" alt="C++"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/docker.svg" alt="Docker"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/git.svg" alt="Git"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mongodb.svg" alt="MongoDB"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mysql.svg" alt="MySQL"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/php.svg" alt="PHP"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/tensorflow.svg" alt="TensorFlow"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/pytorch.svg" alt="PyTorch"></code>
+<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/keras.svg" alt="Keras"></code>
+
+
+
+
+
+
+
 
 <a href="https://github.com/bhavy2908">
  <img align="right" src="https://github-readme-stats.vercel.app/api?username=bhavy2908&show_icons=true&theme=gotham&hide_border=true" alt="Bhavy's github stats"/>
