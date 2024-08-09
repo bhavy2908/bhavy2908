@@ -1,5 +1,5 @@
 # Hi I'm Bhavy 👋  
-### Experienced Full-Stack Dev
+### Experienced Full-Stack Developer
 
  
 <a href="https://www.linkedin.com/in/bhavy2908/">
@@ -8,14 +8,14 @@
 <a href="https://www.instagram.com/bh4vy/?hl=en">
   <img align="left" alt="Bhavy's Instagram" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
 </a>
-</br>
 
 </br>
-📊 This week i spent my time on:
-</br>
+
+### This week i spent my time on:
+
 <a href="https://wakatime.com/@ea9de753-9ec4-4230-b71f-572288e716bd"><img src="https://wakatime.com/badge/user/ea9de753-9ec4-4230-b71f-572288e716bd.svg" alt="Total time coded since Aug 9 2024" /></a>
-</br>
-</br>
+
+
 <!--START_SECTION:waka-->
 
 ```txt
