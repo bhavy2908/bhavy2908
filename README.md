@@ -38,7 +38,6 @@ No activity tracked
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/git.svg" alt="Git"></code>
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mongodb.svg" alt="MongoDB"></code>
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mysql.svg" alt="MySQL"></code>
-<code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/php.svg" alt="PHP"></code>
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/tensorflow.svg" alt="TensorFlow"></code>
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/pytorch.svg" alt="PyTorch"></code>
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/keras.svg" alt="Keras"></code>
