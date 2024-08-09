@@ -1,4 +1,4 @@
-# Hi I'm Bhavy 👋  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=30&pause=10000&color=2DBA4E&multiline=true&repeat=false&width=435&lines=Hi%2C+I'm+Bhavy!)](https://git.io/typing-svg)
 ### Experienced Full-Stack Developer
 
  
@@ -11,9 +11,7 @@
 
 </br>
 
-### This week i spent my time on:
-
-<a href="https://wakatime.com/@ea9de753-9ec4-4230-b71f-572288e716bd"><img src="https://wakatime.com/badge/user/ea9de753-9ec4-4230-b71f-572288e716bd.svg" alt="Total time coded since Aug 9 2024" /></a>
+### This week i spent my time on: <a href="https://wakatime.com/@ea9de753-9ec4-4230-b71f-572288e716bd"><img align="right" src="https://wakatime.com/badge/user/ea9de753-9ec4-4230-b71f-572288e716bd.svg" alt="Total time coded since Aug 9 2024" /></a>
 
 
 <!--START_SECTION:waka-->
@@ -26,7 +24,7 @@ No activity tracked
 
 
 
-### My Tech Stack:  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=700&duration=2000&pause=1000000&color=C5D1DE&background=0000000&multiline=true&repeat=false&width=435&height=29&lines=My+Tech+Stack%3A)](https://git.io/typing-svg)
 
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg" alt="Python"></code>
 <code><img height="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg" alt="React"></code>
