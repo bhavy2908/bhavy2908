@@ -1,7 +1,5 @@
 # Hi I'm Bhavy 👋 
-### I'm a CSE Senior at [JIIT, Noida](https://www.jiit.ac.in)
-
-Results oriented full-stack developer with experience of making high quality websites and mobile applications, and with excellent knowledge of programming languages like Python, Java and C++.
+### Experienced Full-Stack Dev
 
  
 <a href="https://www.linkedin.com/in/bhavy2908/">
@@ -32,10 +30,10 @@ Results oriented full-stack developer with experience of making high quality web
 
 
 <a href="https://github.com/bhavy2908">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavy2908&theme=tokyonight&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavy2908&theme=gotham&hide_border=true" />
 </a>
 <a href="https://github.com/bhavy2908">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=bhavy2908&show_icons=true&theme=tokyonight&hide_border=true" alt="Bhavy's github stats"/>
+ <img align="center" src="https://github-readme-stats.vercel.app/api?username=bhavy2908&show_icons=true&theme=gotham&hide_border=true" alt="Bhavy's github stats"/>
 </a>
 
 <div>
