@@ -13,6 +13,9 @@
 </a>
 </br>
 
+</br>
+📊 **this week i spent my time on:**
+</br>
 <!--START_SECTION:waka-->
 
 ```txt
