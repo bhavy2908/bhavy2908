@@ -11,7 +11,7 @@
 </br>
 
 </br>
-📊 This week i spent my time on:
+📊 This week i spent my time on: <a href="https://wakatime.com/@ea9de753-9ec4-4230-b71f-572288e716bd"><img src="https://wakatime.com/badge/user/ea9de753-9ec4-4230-b71f-572288e716bd.svg" alt="Total time coded since Aug 9 2024" /></a>
 </br>
 </br>
 <!--START_SECTION:waka-->
@@ -42,7 +42,7 @@ No activity tracked
 
 
 <a href="https://github.com/bhavy2908">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime/?username=@bhavy2908&theme=gotham&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavy2908&theme=gotham&hide_border=true" />
 </a>
 
 <div>
