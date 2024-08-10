@@ -1,5 +1,7 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=30&pause=10000&color=2DBA4E&multiline=true&repeat=false&width=435&lines=Hi%2C+I'm+Bhavy!)]()
-### Seasoned Full Stack Dev with a knack for transforming ideas into elegant solutions. 
+<img src="assets/salt-bae.gif" alt="Salt Bae GIF" width="80"/>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=30&duration=2000&pause=1000000&color=2FBB4F&center=true&multiline=true&repeat=false&width=238&height=41&lines=Hi%2C+I+am+Bhavy!)](https://git.io/typing-svg)
+
+### Seasoned Full Stack Dev with a knack for transforming ideas into elegant solutions.
+
 
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhavy2908/)
