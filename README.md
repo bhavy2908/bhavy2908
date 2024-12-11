@@ -60,6 +60,16 @@ JSON         19 mins         ██░░░░░░░░░░░░░░░
 <div>
 </div>
 
-<div align="center">
+<table align="center">
+  <tr>
+    <td style="background-color: black; color: green; text-align: center; padding: 10px; border-radius: 5px;">
+      <div align="center">
+       <b>Footfall Snapshot</b>
+      </div>
+      <br>
+      <img src="https://profile-counter.glitch.me/bhavy2908/count.svg" />
+    </td>
+  </tr>
+</table>
 
-</div>
+
