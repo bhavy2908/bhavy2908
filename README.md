@@ -57,10 +57,7 @@ JSON         19 mins         ██░░░░░░░░░░░░░░░
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavy2908&theme=codeSTACKr&hide_border=true" />
 </a>
 
-<div>
-</div>
-
-<table align="center">
+<table align="right">
   <tr>
     <td style="background-color: black; color: green; text-align: center; padding: 10px; border-radius: 5px;">
       <div align="center">
@@ -71,5 +68,7 @@ JSON         19 mins         ██░░░░░░░░░░░░░░░
     </td>
   </tr>
 </table>
+
+
 
 
