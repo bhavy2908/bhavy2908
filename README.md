@@ -14,10 +14,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript   10 hrs 10 mins  ████████████████▒░░░░░░░░   65.03 %
-JavaScript   5 hrs 21 mins   ████████▓░░░░░░░░░░░░░░░░   34.31 %
+TypeScript   10 hrs 8 mins   ████████████████░░░░░░░░░   64.53 %
+JavaScript   5 hrs 21 mins   ████████▓░░░░░░░░░░░░░░░░   34.11 %
+Bash         7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.79 %
 HTML         5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.58 %
-Bash         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
 ```
 
 <!--END_SECTION:waka-->
