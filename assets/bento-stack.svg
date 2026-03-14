@@ -58,7 +58,7 @@
   <!-- ============================================================ -->
 
   <!-- ===== CELL: EXECUTION LANGUAGES (Col1+2, Row1) - wide top left ===== -->
-  <rect x="12" y="38" width="354" height="140" rx="8" fill="url(#langBg)" stroke="#00ff41" stroke-width="0.8" class="cell"/>
+  <!-- Cell background removed -->
   <rect x="12" y="38" width="354" height="4" rx="8" fill="#00ff41" opacity="0.5"/>
   <text x="30" y="58" font-family="monospace" font-size="9" fill="#00ff41" opacity="0.5">// core.execution</text>
   <text x="30" y="72" font-family="monospace" font-size="13" fill="#00ff41" font-weight="bold" filter="url(#soft2)">EXECUTION LANGUAGES</text>
@@ -92,7 +92,7 @@
   <text x="356" y="145" font-family="monospace" font-size="8" fill="#00ff41" opacity="0.5" text-anchor="end" style="animation:cursor-blink 1s infinite">_</text>
 
   <!-- ===== CELL: PROTOCOL ENGINEERING (Col3, Row1) ===== -->
-  <rect x="376" y="38" width="172" height="140" rx="8" fill="url(#frontBg)" stroke="#00ff41" stroke-width="0.8" class="cell" style="animation-delay:0.4s"/>
+  <!-- Cell background removed -->
   <rect x="376" y="38" width="172" height="4" rx="8" fill="#00ff41" opacity="0.4"/>
   <text x="392" y="58" font-family="monospace" font-size="9" fill="#00ff41" opacity="0.5">// protocol.layer</text>
   <text x="392" y="72" font-family="monospace" font-size="12" fill="#00ff41" font-weight="bold" filter="url(#soft2)">PROTOCOL ENG.</text>
@@ -113,7 +113,7 @@
   <text x="480" y="145" font-family="monospace" font-size="9" fill="#00ff41" text-anchor="middle">WebAssembly</text>
 
   <!-- ===== CELL: DISTRIBUTED INFRASTRUCTURE (Col4, Row1) ===== -->
-  <rect x="558" y="38" width="210" height="140" rx="8" fill="url(#mlBg)" stroke="#00ff41" stroke-width="0.8" class="cell" style="animation-delay:0.8s"/>
+  <!-- Cell background removed -->
   <rect x="558" y="38" width="210" height="4" rx="8" fill="#00ff41" opacity="0.35"/>
   <text x="574" y="58" font-family="monospace" font-size="9" fill="#00ff41" opacity="0.5">// distributed.ops</text>
   <text x="574" y="72" font-family="monospace" font-size="12" fill="#00ff41" font-weight="bold" filter="url(#soft2)">DISTRIBUTED INFRA.</text>
@@ -143,7 +143,7 @@
   <line x1="12" y1="185" x2="768" y2="185" stroke="#00ff41" stroke-width="0.4" opacity="0.2"/>
 
   <!-- ===== CELL: SYSTEMS ENGINEERING (Col1, Row2) ===== -->
-  <rect x="12" y="192" width="185" height="158" rx="8" fill="url(#frontBg)" stroke="#00ff41" stroke-width="0.8" class="cell" style="animation-delay:1.2s"/>
+  <!-- Cell background removed -->
   <rect x="12" y="192" width="185" height="4" rx="8" fill="#00ff41" opacity="0.4"/>
   <text x="28" y="213" font-family="monospace" font-size="9" fill="#00ff41" opacity="0.5">// bare.metal</text>
   <text x="28" y="226" font-family="monospace" font-size="12" fill="#00ff41" font-weight="bold" filter="url(#soft2)">SYSTEMS ENG.</text>
@@ -164,7 +164,7 @@
   <text x="84" y="299" font-family="monospace" font-size="9" fill="#00ff41" text-anchor="middle">State Optimization</text>
 
   <!-- ===== CELL: NEURAL ARCHITECTURE (Col2+3, Row2) - wide center-bottom ===== -->
-  <rect x="207" y="192" width="341" height="158" rx="8" fill="url(#mlBg)" stroke="#00ff41" stroke-width="0.8" class="cell" style="animation-delay:0.6s"/>
+  <!-- Cell background removed -->
   <rect x="207" y="192" width="341" height="4" rx="8" fill="#00ff41" opacity="0.3"/>
   <text x="223" y="213" font-family="monospace" font-size="9" fill="#00ff41" opacity="0.5">// intelligence.layer</text>
   <text x="223" y="226" font-family="monospace" font-size="12" fill="#00ff41" font-weight="bold" filter="url(#soft2)">NEURAL ARCHITECTURE</text>
@@ -199,7 +199,7 @@
   <text x="223" y="330" font-family="monospace" font-size="7.5" fill="#00ff41" opacity="0.3">FOCUS: Deep Fine Tuning • Multi Agent Orchestration</text>
 
   <!-- ===== CELL: QUANTUM COMPUTING (Col4, Row2) ===== -->
-  <rect x="558" y="192" width="210" height="158" rx="8" fill="url(#langBg)" stroke="#00ff41" stroke-width="0.8" class="cell" style="animation-delay:1s"/>
+  <!-- Cell background removed -->
   <rect x="558" y="192" width="210" height="4" rx="8" fill="#00ff41" opacity="0.35"/>
   <text x="574" y="213" font-family="monospace" font-size="9" fill="#00ff41" opacity="0.5">// physics.compute</text>
   <text x="574" y="226" font-family="monospace" font-size="12" fill="#00ff41" font-weight="bold" filter="url(#soft2)">QUANTUM COMPUTING</text>

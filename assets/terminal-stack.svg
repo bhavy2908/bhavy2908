@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 450" width="840" height="450">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 410" width="840" height="410">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
@@ -22,116 +22,117 @@
     </filter>
   </defs>
 
-  <!-- Background and Title Bar removed for flawless blend with GitHub background -->
+  <!-- Content shifted up for better alignment -->
+  <g transform="translate(0, -40)">
+    <!-- ====== LEFT: SIDEBAR ====== -->
+    <g class="cell-anim">
+      <text x="30" y="80" class="terminal-font line" style="animation-delay: 0.1s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██████╗ </text>
+      <text x="30" y="96" class="terminal-font line" style="animation-delay: 0.2s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██╔══██╗</text>
+      <text x="30" y="112" class="terminal-font line" style="animation-delay: 0.3s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██████╔╝</text>
+      <text x="30" y="128" class="terminal-font line" style="animation-delay: 0.4s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██╔══██╗</text>
+      <text x="30" y="144" class="terminal-font line" style="animation-delay: 0.5s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██████╔╝</text>
+      <text x="30" y="160" class="terminal-font line" style="animation-delay: 0.6s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">╚═════╝ </text>
+    </g>
 
-  <!-- ====== LEFT: SIDEBAR ====== -->
-  <g class="cell-anim">
-    <text x="30" y="80" class="terminal-font line" style="animation-delay: 0.1s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██████╗ </text>
-    <text x="30" y="96" class="terminal-font line" style="animation-delay: 0.2s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██╔══██╗</text>
-    <text x="30" y="112" class="terminal-font line" style="animation-delay: 0.3s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██████╔╝</text>
-    <text x="30" y="128" class="terminal-font line" style="animation-delay: 0.4s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██╔══██╗</text>
-    <text x="30" y="144" class="terminal-font line" style="animation-delay: 0.5s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">██████╔╝</text>
-    <text x="30" y="160" class="terminal-font line" style="animation-delay: 0.6s" font-size="11" fill="#00ff41" filter="url(#soft-glow)">╚═════╝ </text>
-  </g>
+    <g opacity="0.7">
+      <text x="30" y="195" class="terminal-font line" style="animation-delay: 0.8s" font-size="10" fill="#00ff41">Host:   bhavy2908</text>
+      <text x="30" y="215" class="terminal-font line" style="animation-delay: 1.0s" font-size="10" fill="#00ff41">Rank:   Crypto Deity</text>
+      <text x="30" y="235" class="terminal-font line" style="animation-delay: 1.2s" font-size="10" fill="#00ff41">Uptime: 99.9%</text>
+      <text x="30" y="255" class="terminal-font line" style="animation-delay: 1.4s" font-size="10" fill="#00ff41">Coffee: [||||||||--] 80%</text>
+      <text x="30" y="275" class="terminal-font line" style="animation-delay: 1.6s" font-size="10" fill="#00ff41">Mode:   Flow State</text>
+    </g>
 
-  <g opacity="0.7">
-    <text x="30" y="195" class="terminal-font line" style="animation-delay: 0.8s" font-size="10" fill="#00ff41">Host:   bhavy2908</text>
-    <text x="30" y="215" class="terminal-font line" style="animation-delay: 1.0s" font-size="10" fill="#00ff41">Rank:   Crypto Deity</text>
-    <text x="30" y="235" class="terminal-font line" style="animation-delay: 1.2s" font-size="10" fill="#00ff41">Uptime: 99.9%</text>
-    <text x="30" y="255" class="terminal-font line" style="animation-delay: 1.4s" font-size="10" fill="#00ff41">Coffee: [||||||||--] 80%</text>
-    <text x="30" y="275" class="terminal-font line" style="animation-delay: 1.6s" font-size="10" fill="#00ff41">Mode:   Flow State</text>
-  </g>
+    <!-- Status indicators -->
+    <rect x="30" y="310" width="12" height="12" fill="#00ff41" rx="2" opacity="0.9"/>
+    <rect x="48" y="310" width="12" height="12" fill="#00ff41" rx="2" opacity="0.7"/>
+    <rect x="66" y="310" width="12" height="12" fill="#00ff41" rx="2" opacity="0.5"/>
+    <rect x="84" y="310" width="12" height="12" fill="#00ff41" rx="2" opacity="0.3"/>
 
-  <!-- Status indicators -->
-  <rect x="30" y="310" width="12" height="12" fill="#00ff41" rx="2" opacity="0.9"/>
-  <rect x="48" y="310" width="12" height="12" fill="#00ff41" rx="2" opacity="0.7"/>
-  <rect x="66" y="310" width="12" height="12" fill="#00ff41" rx="2" opacity="0.5"/>
-  <rect x="84" y="310" width="12" height="12" fill="#00ff41" rx="2" opacity="0.3"/>
+    <!-- ====== RIGHT: TERMINAL ====== -->
+    <g font-size="11.5">
+      <!-- Prompt 1 -->
+      <text x="220" y="65" class="terminal-font line" style="animation-delay: 0.5s">
+        <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">bhavy</tspan>
+        <tspan fill="#00ff41" opacity="0.8">@</tspan>
+        <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">dev</tspan>
+        <tspan fill="#00ff41" opacity="0.8">:~$ </tspan>
+        <tspan fill="#00ff41">cat manifest.json</tspan>
+      </text>
 
-  <!-- ====== RIGHT: TERMINAL ====== -->
-  <g font-size="11.5">
-    <!-- Prompt 1 -->
-    <text x="220" y="65" class="terminal-font line" style="animation-delay: 0.5s">
-      <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">bhavy</tspan>
-      <tspan fill="#00ff41" opacity="0.8">@</tspan>
-      <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">dev</tspan>
-      <tspan fill="#00ff41" opacity="0.8">:~$ </tspan>
-      <tspan fill="#00ff41">cat manifest.json</tspan>
-    </text>
+      <!-- JSON Start -->
+      <text x="220" y="88" class="terminal-font line" style="animation-delay: 1.5s" fill="#00ff41"> {</text>
+      
+      <text x="220" y="110" class="terminal-font line" style="animation-delay: 1.8s">
+        <tspan fill="#00ff41" fill-opacity="0.8">   "status": </tspan>
+        <tspan fill="#00ff41">"Currently optimizing reality."</tspan><tspan fill="#00ff41" fill-opacity="0.8">,</tspan>
+      </text>
 
-    <!-- JSON Start -->
-    <text x="220" y="88" class="terminal-font line" style="animation-delay: 1.5s" fill="#00ff41"> {</text>
-    
-    <text x="220" y="110" class="terminal-font line" style="animation-delay: 1.8s">
-      <tspan fill="#00ff41" fill-opacity="0.8">   "status": </tspan>
-      <tspan fill="#00ff41">"Currently optimizing reality."</tspan><tspan fill="#00ff41" fill-opacity="0.8">,</tspan>
-    </text>
+      <text x="220" y="132" class="terminal-font line" font-size="10.5" style="animation-delay: 2.1s">
+        <tspan fill="#00ff41" fill-opacity="0.8">   "philosophy": </tspan>
+        <tspan fill="#00ff41">"If a framework dropped 5 minutes ago, I've already refactored my life to use it."</tspan><tspan fill="#00ff41" fill-opacity="0.8">,</tspan>
+      </text>
 
-    <text x="220" y="132" class="terminal-font line" font-size="10.5" style="animation-delay: 2.1s">
-      <tspan fill="#00ff41" fill-opacity="0.8">   "philosophy": </tspan>
-      <tspan fill="#00ff41">"If a framework dropped 5 minutes ago, I've already refactored my life to use it."</tspan><tspan fill="#00ff41" fill-opacity="0.8">,</tspan>
-    </text>
+      <text x="220" y="154" class="terminal-font line" font-size="10.5" style="animation-delay: 2.4s">
+        <tspan fill="#00ff41" fill-opacity="0.8">   "standard": </tspan>
+        <tspan fill="#00ff41">"I don't chase perfection; I just refuse to ship anything that isn't flawless."</tspan><tspan fill="#00ff41" fill-opacity="0.8">,</tspan>
+      </text>
 
-    <text x="220" y="154" class="terminal-font line" font-size="10.5" style="animation-delay: 2.4s">
-      <tspan fill="#00ff41" fill-opacity="0.8">   "standard": </tspan>
-      <tspan fill="#00ff41">"I don't chase perfection; I just refuse to ship anything that isn't flawless."</tspan><tspan fill="#00ff41" fill-opacity="0.8">,</tspan>
-    </text>
+      <text x="220" y="176" class="terminal-font line" font-size="10.5" style="animation-delay: 2.7s">
+        <tspan fill="#00ff41" fill-opacity="0.8">   "crypto_god_mode": </tspan>
+        <tspan fill="#00ff41">"Active. Bridging paradigms while the rest are still checking gas prices."</tspan><tspan fill="#00ff41" fill-opacity="0.8">,</tspan>
+      </text>
 
-    <text x="220" y="176" class="terminal-font line" font-size="10.5" style="animation-delay: 2.7s">
-      <tspan fill="#00ff41" fill-opacity="0.8">   "crypto_god_mode": </tspan>
-      <tspan fill="#00ff41">"Active. Bridging paradigms while the rest are still checking gas prices."</tspan><tspan fill="#00ff41" fill-opacity="0.8">,</tspan>
-    </text>
+      <text x="220" y="198" class="terminal-font line" style="animation-delay: 3.0s">
+        <tspan fill="#00ff41" fill-opacity="0.8">   "comms": </tspan>
+        <tspan fill="#00ff41">"@bh4vy (IG / Discord)"</tspan>
+      </text>
 
-    <text x="220" y="198" class="terminal-font line" style="animation-delay: 3.0s">
-      <tspan fill="#00ff41" fill-opacity="0.8">   "comms": </tspan>
-      <tspan fill="#00ff41">"@bh4vy (IG / Discord)"</tspan>
-    </text>
+      <text x="220" y="220" class="terminal-font line" style="animation-delay: 3.3s" fill="#00ff41"> }</text>
 
-    <text x="220" y="220" class="terminal-font line" style="animation-delay: 3.3s" fill="#00ff41"> }</text>
+      <!-- New Git Prompt -->
+      <text x="220" y="248" class="terminal-font line" style="animation-delay: 3.8s">
+        <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">bhavy</tspan>
+        <tspan fill="#00ff41" opacity="0.8">@</tspan>
+        <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">dev</tspan>
+        <tspan fill="#00ff41" opacity="0.8">:~$ </tspan>
+        <tspan fill="#00ff41">git push origin main force:true</tspan>
+      </text>
 
-    <!-- New Git Prompt -->
-    <text x="220" y="248" class="terminal-font line" style="animation-delay: 3.8s">
-      <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">bhavy</tspan>
-      <tspan fill="#00ff41" opacity="0.8">@</tspan>
-      <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">dev</tspan>
-      <tspan fill="#00ff41" opacity="0.8">:~$ </tspan>
-      <tspan fill="#00ff41">git push origin main force:true</tspan>
-    </text>
+      <!-- Git Success Message -->
+      <text x="220" y="270" class="terminal-font line" style="animation-delay: 4.5s" font-size="10.5">
+        <tspan fill="#00ff41" opacity="0.6">[ OK ] </tspan><tspan fill="#00ff41">Reality successfully overwritten. No conflicts found.</tspan>
+      </text>
 
-    <!-- Git Success Message -->
-    <text x="220" y="270" class="terminal-font line" style="animation-delay: 4.5s" font-size="10.5">
-      <tspan fill="#00ff41" opacity="0.6">[ OK ] </tspan><tspan fill="#00ff41">Reality successfully overwritten. No conflicts found.</tspan>
-    </text>
+      <!-- Prompt 2 -->
+      <text x="220" y="300" class="terminal-font line" style="animation-delay: 5.5s">
+        <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">bhavy</tspan>
+        <tspan fill="#00ff41" opacity="0.8">@</tspan>
+        <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">dev</tspan>
+        <tspan fill="#00ff41" opacity="0.8">:~$ </tspan>
+        <tspan fill="#00ff41">sudo brew caffeine --intensity=max</tspan>
+      </text>
 
-    <!-- Prompt 2 -->
-    <text x="220" y="300" class="terminal-font line" style="animation-delay: 5.5s">
-      <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">bhavy</tspan>
-      <tspan fill="#00ff41" opacity="0.8">@</tspan>
-      <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">dev</tspan>
-      <tspan fill="#00ff41" opacity="0.8">:~$ </tspan>
-      <tspan fill="#00ff41">sudo brew caffeine --intensity=max</tspan>
-    </text>
+      <!-- Command Logs -->
+      <text x="220" y="322" class="terminal-font line" style="animation-delay: 6.3s" font-size="10.5">
+        <tspan fill="#00ff41" opacity="0.6">[ OK ] </tspan><tspan fill="#00ff41">Grinding beans into high-performance logic...</tspan>
+      </text>
 
-    <!-- Command Logs -->
-    <text x="220" y="322" class="terminal-font line" style="animation-delay: 6.3s" font-size="10.5">
-      <tspan fill="#00ff41" opacity="0.6">[ OK ] </tspan><tspan fill="#00ff41">Grinding beans into high-performance logic...</tspan>
-    </text>
+      <text x="220" y="344" class="terminal-font line" style="animation-delay: 6.7s" font-size="10.5">
+        <tspan fill="#00ff41" opacity="0.6">[ OK ] </tspan><tspan fill="#00ff41">Extracting liquid focus...</tspan>
+      </text>
 
-    <text x="220" y="344" class="terminal-font line" style="animation-delay: 6.7s" font-size="10.5">
-      <tspan fill="#00ff41" opacity="0.6">[ OK ] </tspan><tspan fill="#00ff41">Extracting liquid focus...</tspan>
-    </text>
+      <text x="220" y="366" class="terminal-font line" style="animation-delay: 7.1s" font-size="10.5">
+        <tspan fill="#00ff41" opacity="0.6">[ OK ] </tspan><tspan fill="#00ff41">System ready for 48-hour sprint.</tspan>
+      </text>
 
-    <text x="220" y="366" class="terminal-font line" style="animation-delay: 7.1s" font-size="10.5">
-      <tspan fill="#00ff41" opacity="0.6">[ OK ] </tspan><tspan fill="#00ff41">System ready for 48-hour sprint.</tspan>
-    </text>
-
-    <!-- Final Prompt -->
-    <text x="220" y="400" class="terminal-font line" style="animation-delay: 8.0s">
-      <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">bhavy</tspan>
-      <tspan fill="#00ff41" opacity="0.8">@</tspan>
-      <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">dev</tspan>
-      <tspan fill="#00ff41" opacity="0.8">:~$ </tspan>
-      <tspan fill="#00ff41" class="cursor">█</tspan>
-    </text>
+      <!-- Final Prompt -->
+      <text x="220" y="400" class="terminal-font line" style="animation-delay: 8.0s">
+        <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">bhavy</tspan>
+        <tspan fill="#00ff41" opacity="0.8">@</tspan>
+        <tspan fill="#00ff41" font-weight="bold" filter="url(#soft-glow)">dev</tspan>
+        <tspan fill="#00ff41" opacity="0.8">:~$ </tspan>
+        <tspan fill="#00ff41" class="cursor">█</tspan>
+      </text>
+    </g>
   </g>
 </svg>
