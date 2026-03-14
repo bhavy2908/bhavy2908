@@ -34,9 +34,7 @@
     </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect width="840" height="360" rx="12" fill="url(#matrixBg)" stroke="#00ff41" stroke-width="1" opacity="0.8"/>
-
+  <!-- Background and Border removed for flawless blend -->
   <g transform="translate(30, 0)">
 
   <!-- Matrix digital rain columns (background effect, purely decorative) -->
@@ -196,7 +194,4 @@
   <text x="644" y="330" font-family="monospace" font-size="7.5" fill="#00ff41" text-anchor="middle" opacity="0.3">STATUS: HYPER OPTIMIZED</text>
 
   </g>
-
-  <!-- Scanline overlay -->
-  <rect width="840" height="360" rx="12" fill="url(#scanlines)" opacity="1"/>
 </svg>

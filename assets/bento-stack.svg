@@ -40,10 +40,7 @@
     </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect width="840" height="360" rx="12" fill="url(#bentoBg2)" stroke="#00ff41" stroke-width="1" opacity="0.8"/>
-  <rect width="840" height="360" rx="12" fill="url(#dots)"/>
-
+  <!-- Main Background and Border removed for flawless blend -->
   <g transform="translate(30, 0)">
 
   <!-- Header bar -->
@@ -232,7 +229,4 @@
   <text x="390" y="346" font-family="monospace" font-size="7.5" fill="#00ff41" text-anchor="middle" opacity="0.3">github.com/bhavy2908 • RUNTIME ENVIRONMENT ACTIVE</text>
 
   </g>
-
-  <!-- Scanlines -->
-  <rect width="840" height="360" rx="12" fill="url(#scanlines2)"/>
 </svg>

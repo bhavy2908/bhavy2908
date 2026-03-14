@@ -11,11 +11,6 @@
   <img src="./assets/technical-heading.svg" alt="Technical Profile Heading" width="840" />
 </div>
 <br>
-<div align="center">
-  <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="840"/>
-</div>
-
-<br>
 <!-- Radar: Skill proficiency overview -->
 <div align="center">
   <img src="./assets/radar-stack.svg" alt="Skill Proficiency Radar" width="840"/>
@@ -26,5 +21,11 @@
 <!-- Bento: Full technology arsenal -->
 <div align="center">
   <img src="./assets/bento-stack.svg" alt="Technology Arsenal" width="840"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="840"/>
 </div>
 
