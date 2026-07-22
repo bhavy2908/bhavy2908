@@ -2,26 +2,20 @@
   <defs>
     <style>
       @keyframes cursor-blink { 0%,100%{opacity:1} 50%{opacity:0} }
-      @keyframes type-loop { 0%{opacity:0} 2%{opacity:1} 88%{opacity:1} 92%{opacity:0} 100%{opacity:0} }
       .mono { font-family: 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace; }
       .cursor { animation: cursor-blink 1.1s infinite; }
-      .line { animation: type-loop 12s infinite both; }
-      .key   { fill:#9fb6d6; }
-      .str   { fill:#d8c39a; }
+      .key   { fill:#79c0ff; }
+      .str   { fill:#56d364; }
       .punc  { fill:#6e7681; }
       .cmd   { fill:#c9d1d9; }
-      .ok    { fill:#cbae7d; }
+      .ok    { fill:#3fb950; }
       .msg   { fill:#adbac7; }
-      .u-name{ fill:#a68fca; font-weight:700; }
-      .u-host{ fill:#7d9abf; font-weight:700; }
+      .u-name{ fill:#58a6ff; font-weight:700; }
+      .u-host{ fill:#388bfd; font-weight:700; }
     </style>
     <linearGradient id="bGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8595c9"/>
-      <stop offset="100" stop-color="#cbae7d"/>
-    </linearGradient>
-    <linearGradient id="sideBar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8595c9"/>
-      <stop offset="1" stop-color="#cbae7d"/>
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="100" stop-color="#3fb950"/>
     </linearGradient>
     <filter id="winShadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
@@ -40,27 +34,27 @@
 
   <!-- ====== LEFT: SIDEBAR ====== -->
   <g class="mono" font-size="11" fill="url(#bGrad)">
-    <text x="48" y="92"  class="line" style="animation-delay:0.1s">██████╗ </text>
-    <text x="48" y="108" class="line" style="animation-delay:0.2s">██╔══██╗</text>
-    <text x="48" y="124" class="line" style="animation-delay:0.3s">██████╔╝</text>
-    <text x="48" y="140" class="line" style="animation-delay:0.4s">██╔══██╗</text>
-    <text x="48" y="156" class="line" style="animation-delay:0.5s">██████╔╝</text>
-    <text x="48" y="172" class="line" style="animation-delay:0.6s">╚═════╝ </text>
+    <text x="48" y="92"  opacity="0">██████╗ <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.1s" fill="freeze"/></text>
+    <text x="48" y="108" opacity="0">██╔══██╗<animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.2s" fill="freeze"/></text>
+    <text x="48" y="124" opacity="0">██████╔╝<animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.3s" fill="freeze"/></text>
+    <text x="48" y="140" opacity="0">██╔══██╗<animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.4s" fill="freeze"/></text>
+    <text x="48" y="156" opacity="0">██████╔╝<animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.5s" fill="freeze"/></text>
+    <text x="48" y="172" opacity="0">╚═════╝ <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.6s" fill="freeze"/></text>
   </g>
 
   <g class="mono" font-size="10">
-    <text x="48" y="208" class="line" style="animation-delay:0.8s"><tspan fill="#8b949e">Host:  </tspan><tspan fill="#c9d1d9"> bhavy2908</tspan></text>
-    <text x="48" y="228" class="line" style="animation-delay:1.0s"><tspan fill="#8b949e">Rank:  </tspan><tspan fill="#c9d1d9"> Crypto Deity</tspan></text>
-    <text x="48" y="248" class="line" style="animation-delay:1.2s"><tspan fill="#8b949e">Uptime:</tspan><tspan fill="#c9d1d9"> 99.9%</tspan></text>
-    <text x="48" y="268" class="line" style="animation-delay:1.4s"><tspan fill="#8b949e">Coffee:</tspan><tspan fill="#cbae7d"> [||||||||--] 80%</tspan></text>
-    <text x="48" y="288" class="line" style="animation-delay:1.6s"><tspan fill="#8b949e">Mode:  </tspan><tspan fill="#c9d1d9"> Flow State</tspan></text>
+    <text x="48" y="208" opacity="0"><tspan fill="#8b949e">Host:  </tspan><tspan fill="#c9d1d9"> bhavy2908</tspan><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.8s" fill="freeze"/></text>
+    <text x="48" y="228" opacity="0"><tspan fill="#8b949e">Rank:  </tspan><tspan fill="#c9d1d9"> Crypto Deity</tspan><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.0s" fill="freeze"/></text>
+    <text x="48" y="248" opacity="0"><tspan fill="#8b949e">Uptime:</tspan><tspan fill="#c9d1d9"> 99.9%</tspan><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.2s" fill="freeze"/></text>
+    <text x="48" y="268" opacity="0"><tspan fill="#8b949e">Coffee:</tspan><tspan fill="#3fb950"> [||||||||--] 80%</tspan><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.4s" fill="freeze"/></text>
+    <text x="48" y="288" opacity="0"><tspan fill="#8b949e">Mode:  </tspan><tspan fill="#c9d1d9"> Flow State</tspan><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/></text>
   </g>
 
   <!-- Status indicators -->
-  <rect x="48" y="318" width="12" height="12" rx="3" fill="#8595c9" opacity="0.95"/>
-  <rect x="66" y="318" width="12" height="12" rx="3" fill="#7d9abf" opacity="0.75"/>
-  <rect x="84" y="318" width="12" height="12" rx="3" fill="#cbae7d" opacity="0.55"/>
-  <rect x="102" y="318" width="12" height="12" rx="3" fill="#d8c39a" opacity="0.35"/>
+  <rect x="48" y="318" width="12" height="12" rx="3" fill="#58a6ff" opacity="0.95"/>
+  <rect x="66" y="318" width="12" height="12" rx="3" fill="#388bfd" opacity="0.75"/>
+  <rect x="84" y="318" width="12" height="12" rx="3" fill="#3fb950" opacity="0.55"/>
+  <rect x="102" y="318" width="12" height="12" rx="3" fill="#56d364" opacity="0.35"/>
 
   <!-- vertical divider -->
   <line x1="210" y1="66" x2="210" y2="378" stroke="#21262d" stroke-width="1"/>
@@ -68,59 +62,72 @@
   <!-- ====== RIGHT: TERMINAL ====== -->
   <g class="mono" font-size="11.5">
     <!-- Prompt 1 -->
-    <text x="234" y="88" class="line" style="animation-delay:0.5s">
+    <text x="234" y="88" opacity="0">
       <tspan class="u-name">bhavy</tspan><tspan class="punc">@</tspan><tspan class="u-host">dev</tspan><tspan class="punc">:~$ </tspan><tspan class="cmd">cat manifest.json</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.5s" fill="freeze"/>
     </text>
 
-    <text x="234" y="110" class="line punc" style="animation-delay:1.5s"> {</text>
+    <text x="234" y="110" class="punc" opacity="0"> {<animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.5s" fill="freeze"/></text>
 
-    <text x="234" y="132" class="line" style="animation-delay:1.8s">
+    <text x="234" y="132" opacity="0">
       <tspan class="key">   "status": </tspan><tspan class="str">"Currently optimizing reality."</tspan><tspan class="punc">,</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.8s" fill="freeze"/>
     </text>
 
-    <text x="234" y="154" class="line" font-size="9.2" style="animation-delay:2.1s">
+    <text x="234" y="154" font-size="9.2" opacity="0">
       <tspan class="key">   "philosophy": </tspan><tspan class="str">"If a framework dropped 5 minutes ago, I've already refactored my life to use it."</tspan><tspan class="punc">,</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.1s" fill="freeze"/>
     </text>
 
-    <text x="234" y="176" class="line" font-size="9.2" style="animation-delay:2.4s">
+    <text x="234" y="176" font-size="9.2" opacity="0">
       <tspan class="key">   "standard": </tspan><tspan class="str">"I don't chase perfection; I just refuse to ship anything that isn't flawless."</tspan><tspan class="punc">,</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.4s" fill="freeze"/>
     </text>
 
-    <text x="234" y="198" class="line" font-size="9.2" style="animation-delay:2.7s">
+    <text x="234" y="198" font-size="9.2" opacity="0">
       <tspan class="key">   "crypto_god_mode": </tspan><tspan class="str">"Active. Bridging paradigms while the rest are still checking gas prices."</tspan><tspan class="punc">,</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.7s" fill="freeze"/>
     </text>
 
-    <text x="234" y="220" class="line" style="animation-delay:3.0s">
+    <text x="234" y="220" opacity="0">
       <tspan class="key">   "comms": </tspan><tspan class="str">"@bh4vy (IG / Discord)"</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.0s" fill="freeze"/>
     </text>
 
-    <text x="234" y="242" class="line punc" style="animation-delay:3.3s"> }</text>
+    <text x="234" y="242" class="punc" opacity="0"> }<animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.3s" fill="freeze"/></text>
 
     <!-- Git Prompt -->
-    <text x="234" y="262" class="line" style="animation-delay:3.8s">
+    <text x="234" y="262" opacity="0">
       <tspan class="u-name">bhavy</tspan><tspan class="punc">@</tspan><tspan class="u-host">dev</tspan><tspan class="punc">:~$ </tspan><tspan class="cmd">git push origin main force:true</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.8s" fill="freeze"/>
     </text>
-    <text x="234" y="282" class="line" font-size="10.5" style="animation-delay:4.5s">
+    <text x="234" y="282" font-size="10.5" opacity="0">
       <tspan class="ok">[ OK ] </tspan><tspan class="msg">Reality successfully overwritten. No conflicts found.</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="4.5s" fill="freeze"/>
     </text>
 
     <!-- Prompt 2 -->
-    <text x="234" y="304" class="line" style="animation-delay:5.5s">
+    <text x="234" y="304" opacity="0">
       <tspan class="u-name">bhavy</tspan><tspan class="punc">@</tspan><tspan class="u-host">dev</tspan><tspan class="punc">:~$ </tspan><tspan class="cmd">sudo brew caffeine --intensity=max</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="5.5s" fill="freeze"/>
     </text>
-    <text x="234" y="322" class="line" font-size="10.5" style="animation-delay:6.3s">
+    <text x="234" y="322" font-size="10.5" opacity="0">
       <tspan class="ok">[ OK ] </tspan><tspan class="msg">Grinding beans into high-performance logic...</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="6.3s" fill="freeze"/>
     </text>
-    <text x="234" y="340" class="line" font-size="10.5" style="animation-delay:6.7s">
+    <text x="234" y="340" font-size="10.5" opacity="0">
       <tspan class="ok">[ OK ] </tspan><tspan class="msg">Extracting liquid focus...</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="6.7s" fill="freeze"/>
     </text>
-    <text x="234" y="358" class="line" font-size="10.5" style="animation-delay:7.1s">
+    <text x="234" y="358" font-size="10.5" opacity="0">
       <tspan class="ok">[ OK ] </tspan><tspan class="msg">System ready for 48-hour sprint.</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="7.1s" fill="freeze"/>
     </text>
 
     <!-- Final prompt -->
-    <text x="234" y="376" class="line" style="animation-delay:8.0s">
+    <text x="234" y="376" opacity="0">
       <tspan class="u-name">bhavy</tspan><tspan class="punc">@</tspan><tspan class="u-host">dev</tspan><tspan class="punc">:~$ </tspan><tspan class="ok cursor">█</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="8.0s" fill="freeze"/>
     </text>
   </g>
 </svg>
