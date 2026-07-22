@@ -4,7 +4,7 @@
   <img src="assets/salt-bae.gif" alt="Salt Bae GIF" width="80"/>
   <br>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=2000&pause=1000&color=00FF41&background=0d1117&vCenter=true&center=true&multiline=true&repeat=true&width=500&height=50&lines=Hi,+I+am+Bhavy!;Seasoned+Full+Stack+Developer;Transforming+ideas+into+Solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=2000&pause=1000&color=00FF41&background=0d1117&vCenter=true&center=true&multiline=true&repeat=true&width=500&height=50&lines=Hi,+I+am+Bhavy!" alt="Typing SVG" />
   </a>
 </div>
 
