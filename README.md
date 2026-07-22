@@ -28,22 +28,19 @@
 <br>
 
 <div align="center">
-  <table>
-    <tr>
-      <td valign="middle" align="center">
-        <img src="https://media.tenor.com/QWemspX4xQgAAAAi/cat-eating-chips.gif" alt="Cat" width="150"/>
-      </td>
-      <td valign="middle">
-        <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="660"/>
-      </td>
-    </tr>
-  </table>
+  <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="660"/>
 </div>
 
 <br>
 
 <div align="center">
   <img src="./assets/quote.svg" alt="Quote" width="620"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://media.tenor.com/QWemspX4xQgAAAAi/cat-eating-chips.gif" alt="Cat" width="140"/>
 </div>
 
 </div>

@@ -23,7 +23,7 @@
   </defs>
 
   <!-- ===== WINDOW ===== -->
-  <rect x="20" y="18" width="800" height="374" rx="14" fill="#0d1117" stroke="#2b323b" stroke-width="1" filter="url(#winShadow)"/>
+  <rect x="20" y="18" width="800" height="374" rx="14" fill="#0d1117" filter="url(#winShadow)"/>
 
   <!-- Title bar -->
   <circle cx="44" cy="36" r="6" fill="#ff5f56"/>
