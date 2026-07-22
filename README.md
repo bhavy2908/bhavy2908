@@ -31,5 +31,11 @@
   <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="840"/>
 </div>
 
+<br>
+
+<div align="center">
+  <img src="./assets/quote.svg" alt="Quote" width="620"/>
+</div>
+
 </div>
 

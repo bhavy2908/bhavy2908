@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 140" width="840" height="140">
+  <defs>
+    <linearGradient id="qMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#3fb950"/>
+      <stop offset="1" stop-color="#e3b341"/>
+    </linearGradient>
+    <style>
+      @keyframes q-fade { from{opacity:0} to{opacity:1} }
+      .q-text { animation: q-fade 1s 0.3s both; }
+    </style>
+  </defs>
+
+  <!-- Big opening quotation mark -->
+  <text x="150" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="150"
+        font-weight="700" fill="url(#qMark)" opacity="0.35">&#8220;</text>
+
+  <!-- Big closing quotation mark -->
+  <text x="690" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="150"
+        font-weight="700" fill="url(#qMark)" opacity="0.35" text-anchor="end">&#8221;</text>
+
+  <!-- Quote text -->
+  <text x="420" y="62" text-anchor="middle" class="q-text"
+        font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic"
+        fill="#c9d1d9">90% AI-generated code,</text>
+  <text x="420" y="90" text-anchor="middle" class="q-text"
+        font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic"
+        fill="#c9d1d9">10% trying to figure out why the AI generated it.</text>
+
+  <!-- small gradient divider -->
+  <rect x="388" y="108" width="64" height="2" rx="1" fill="url(#qMark)" opacity="0.7"/>
+</svg>
