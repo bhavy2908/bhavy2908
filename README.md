@@ -28,7 +28,16 @@
 <br>
 
 <div align="center">
-  <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="840"/>
+  <table>
+    <tr>
+      <td valign="middle" align="center">
+        <img src="https://media.tenor.com/QWemspX4xQgAAAAi/cat-eating-chips.gif" alt="Cat" width="150"/>
+      </td>
+      <td valign="middle">
+        <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="660"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br>
