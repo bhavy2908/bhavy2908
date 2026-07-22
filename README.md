@@ -28,7 +28,7 @@
 <br>
 
 <div align="center">
-  <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="660"/>
+  <img src="./assets/terminal-stack.svg" alt="Skill Activity Terminal" width="840"/>
 </div>
 
 <br>
