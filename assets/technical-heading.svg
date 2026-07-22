@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="46" viewBox="0 0 800 46">
   <defs>
     <linearGradient id="hdAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#818cf8"/>
-      <stop offset="50%" stop-color="#56d4dd"/>
-      <stop offset="100%" stop-color="#bc8cff"/>
+      <stop offset="0%" stop-color="#8595c9"/>
+      <stop offset="50%" stop-color="#cbae7d"/>
+      <stop offset="100%" stop-color="#a68fca"/>
     </linearGradient>
     <linearGradient id="hdText" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#c9d1d9"/>
@@ -22,7 +22,7 @@
         font-size="13" letter-spacing="0.4" fill="url(#hdText)" class="hd-line">Protocol Architect specializing in high performance systems and autonomous AI swarms.</text>
 
   <!-- underline gradient with end dots -->
-  <circle cx="298" cy="34" r="2" fill="#818cf8"/>
+  <circle cx="298" cy="34" r="2" fill="#8595c9"/>
   <rect x="304" y="33" width="192" height="1.6" rx="0.8" fill="url(#hdAccent)" opacity="0.6"/>
-  <circle cx="502" cy="34" r="2" fill="#bc8cff"/>
+  <circle cx="502" cy="34" r="2" fill="#a68fca"/>
 </svg>
