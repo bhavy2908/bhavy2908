@@ -1,198 +1,133 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 360" width="840" height="360">
-  <rect width="100%" height="100%" fill="#0d1117" />
   <defs>
     <style>
-      @keyframes sweep { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
-      @keyframes pulse-dot { 0%,100%{r:5;opacity:1} 50%{r:8;opacity:0.7} }
-      @keyframes blink-text { 0%,100%{opacity:1} 50%{opacity:0.3} }
-      @keyframes rain-drop { 0%{opacity:0;transform:translateY(-20px)} 20%{opacity:1} 80%{opacity:1} 100%{opacity:0;transform:translateY(20px)} }
-      .sweep-group { transform-origin: 260px 180px; animation: sweep 5s linear infinite; }
-      .pulse { animation: pulse-dot 2s ease-in-out infinite; }
-      .blink { animation: blink-text 1.5s ease-in-out infinite; }
+      text { font-family: 'Segoe UI', system-ui, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', Consolas, monospace; }
+      @keyframes fade-in { from{opacity:0} to{opacity:1} }
+      @keyframes pulse-cap { 0%,100%{opacity:0.9} 50%{opacity:0.45} }
+      .val  { animation: fade-in 0.9s 1.1s both; }
+      .meta { animation: fade-in 0.9s 1.4s both; }
+      .cap  { animation: pulse-cap 2.6s ease-in-out infinite; }
     </style>
-    <radialGradient id="matrixBg" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#030f03"/>
-      <stop offset="100%" stop-color="#000000"/>
-    </radialGradient>
-    <radialGradient id="skillFill" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#003b00" stop-opacity="0.05"/>
-    </radialGradient>
-    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#00ff41" stop-opacity="0.5"/>
-    </linearGradient>
-    <filter id="matrix-glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bc8cff"/><stop offset="1" stop-color="#d2a8ff"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#56d4dd"/><stop offset="1" stop-color="#7ee7c7"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#79c0ff"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#56d4dd"/></linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c084fc"/><stop offset="1" stop-color="#bc8cff"/></linearGradient>
+    <filter id="gg" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="soft-glow">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="scanlines" x="0" y="0" width="840" height="3" patternUnits="userSpaceOnUse">
-      <rect width="840" height="1" fill="rgba(0,255,65,0.03)"/>
-    </pattern>
   </defs>
 
-  <!-- Background and Border removed for flawless blend -->
-  <g transform="translate(30, 0)">
-
-  <!-- Matrix digital rain columns (background effect, purely decorative) -->
-  <text x="12" y="30" font-family="monospace" font-size="10" fill="#00ff41" opacity="0.04">01001000100110001011010010</text>
-  <text x="12" y="42" font-family="monospace" font-size="10" fill="#00ff41" opacity="0.06">11010011001010110110100100</text>
-  <text x="12" y="54" font-family="monospace" font-size="10" fill="#00ff41" opacity="0.04">00110100110100100101001011</text>
-  <text x="12" y="310" font-family="monospace" font-size="10" fill="#00ff41" opacity="0.04">10010101100101010011001011</text>
-  <text x="12" y="322" font-family="monospace" font-size="10" fill="#00ff41" opacity="0.06">01110010011110001010010010</text>
-  <text x="12" y="334" font-family="monospace" font-size="10" fill="#00ff41" opacity="0.04">11001001010100101010110110</text>
-
-  <!-- ========================= RADAR (LEFT SECTION) ========================= -->
-
-  <!-- Title bar -->
-  <text x="260" y="22" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="middle" opacity="0.6">[ SKILL PROFICIENCY MATRIX ]</text>
-
-  <!-- Grid crosshairs -->
-  <line x1="260" y1="30" x2="260" y2="340" stroke="#00ff41" stroke-width="0.3" opacity="0.12"/>
-  <line x1="20" y1="185" x2="500" y2="185" stroke="#00ff41" stroke-width="0.3" opacity="0.12"/>
-  <!-- Diagonal lines -->
-  <line x1="136" y1="61" x2="384" y2="309" stroke="#00ff41" stroke-width="0.3" opacity="0.08"/>
-  <line x1="384" y1="61" x2="136" y2="309" stroke="#00ff41" stroke-width="0.3" opacity="0.08"/>
-
-  <!-- Radar rings -->
-  <circle cx="260" cy="185" r="28" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="260" cy="185" r="55" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="260" cy="185" r="82" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="260" cy="185" r="109" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="260" cy="185" r="136" fill="none" stroke="#00ff41" stroke-width="0.6" opacity="0.18"/>
-
-  <!-- Axis spokes (6 axes, 60° apart) -->
-  <!-- 0°   top:          (260, 49)   -->
-  <!-- 60°  top-right:    (377.7, 117) -->
-  <!-- 120° bottom-right: (377.7, 253) -->
-  <!-- 180° bottom:       (260, 321)  -->
-  <!-- 240° bottom-left:  (142.3, 253)-->
-  <!-- 300° top-left:     (142.3, 117)-->
-  <line x1="260" y1="185" x2="260" y2="49" stroke="#00ff41" stroke-width="0.5" opacity="0.25" stroke-dasharray="4,4"/>
-  <line x1="260" y1="185" x2="377.7" y2="117" stroke="#00ff41" stroke-width="0.5" opacity="0.25" stroke-dasharray="4,4"/>
-  <line x1="260" y1="185" x2="377.7" y2="253" stroke="#00ff41" stroke-width="0.5" opacity="0.25" stroke-dasharray="4,4"/>
-  <line x1="260" y1="185" x2="260" y2="321" stroke="#00ff41" stroke-width="0.5" opacity="0.25" stroke-dasharray="4,4"/>
-  <line x1="260" y1="185" x2="142.3" y2="253" stroke="#00ff41" stroke-width="0.5" opacity="0.25" stroke-dasharray="4,4"/>
-  <line x1="260" y1="185" x2="142.3" y2="117" stroke="#00ff41" stroke-width="0.5" opacity="0.25" stroke-dasharray="4,4"/>
-
-  <!-- Skill polygon
-    Systems Engineering      96%: 136 * 0.96 = 130.56 → (260, 185-130.56) = (260, 54.44)
-    Neural Architecture      95%: 136 * 0.95 = 129.2 → (260+111.89, 185-64.6) = (371.89, 120.4)
-    Protocol Engineering     92%: 136 * 0.92 = 125.12 → (260+108.35, 185+62.56) = (368.35, 247.56)
-    Distributed Infra        94%: 136 * 0.94 = 127.84 → (260, 185+127.84) = (260, 312.84)
-    Quantum Computing        88%: 136 * 0.88 = 119.68 → (260-103.64, 185+59.84) = (156.36, 244.84)
-    Execution Languages      97%: 136 * 0.97 = 131.92 → (260-114.24, 185-65.96) = (145.76, 119.04)
-  -->
-  <polygon
-    points="260,54.44 371.89,120.4 368.35,247.56 260,312.84 156.36,244.84 145.76,119.04"
-    fill="url(#skillFill)"
-    stroke="#00ff41"
-    stroke-width="2"
-    filter="url(#matrix-glow)"
-  />
-
-  <!-- Axis endpoint dots -->
-  <circle cx="260" cy="54.44" r="5" fill="#00ff41" class="pulse" filter="url(#matrix-glow)"/>
-  <circle cx="371.89" cy="120.4" r="5" fill="#00ff41" class="pulse" filter="url(#matrix-glow)" style="animation-delay:0.3s"/>
-  <circle cx="368.35" cy="247.56" r="5" fill="#00ff41" class="pulse" filter="url(#matrix-glow)" style="animation-delay:0.6s"/>
-  <circle cx="260" cy="312.84" r="5" fill="#00ff41" class="pulse" filter="url(#matrix-glow)" style="animation-delay:0.9s"/>
-  <circle cx="156.36" cy="244.84" r="5" fill="#00ff41" class="pulse" filter="url(#matrix-glow)" style="animation-delay:1.2s"/>
-  <circle cx="145.76" cy="119.04" r="5" fill="#00ff41" class="pulse" filter="url(#matrix-glow)" style="animation-delay:1.5s"/>
-
-  <!-- Rotating radar sweep -->
-  <g class="sweep-group">
-    <line x1="260" y1="185" x2="260" y2="49" stroke="url(#sweepGrad)" stroke-width="2" opacity="0.6"/>
-    <polygon points="260,185 250,105 272,105" fill="#00ff41" opacity="0.06"/>
+  <!-- Header -->
+  <g transform="translate(42,0)">
+    <circle cx="0" cy="26" r="3" fill="#818cf8"/>
+    <text x="12" y="30" font-size="12" font-weight="700" letter-spacing="2" fill="#e6edf3">SKILL PROFICIENCY</text>
+    <text x="756" y="30" text-anchor="end" font-size="10" letter-spacing="1" class="mono" fill="#6e7681">SIX CORE DOMAINS · AVG 94%</text>
+    <line x1="0" y1="42" x2="756" y2="42" stroke="#21262d" stroke-width="1"/>
   </g>
 
-  <!-- Center node -->
-  <circle cx="260" cy="185" r="7" fill="#00ff41" filter="url(#matrix-glow)" opacity="0.9"/>
-  <circle cx="260" cy="185" r="3" fill="#000"/>
+  <!-- ================= GAUGES (3 x 2) =================
+       centers: cx 172 / 420 / 668   cy 108 / 247
+       r=40  circumference=251.33 -->
 
-  <!-- Ring labels -->
-  <text x="264" y="135" font-family="monospace" font-size="7.5" fill="#00ff41" opacity="0.4">75%</text>
-  <text x="264" y="82" font-family="monospace" font-size="7.5" fill="#00ff41" opacity="0.4">90%</text>
+  <!-- 1: EXECUTION LANGUAGES 97% -->
+  <g transform="translate(172,108)">
+    <circle r="48" fill="none" stroke="#30363d" stroke-width="1.4" stroke-dasharray="1.4 6.6" opacity="0.5"/>
+    <circle r="40" fill="none" stroke="#1c2128" stroke-width="7"/>
+    <circle r="40" fill="none" stroke="url(#g1)" stroke-width="7" stroke-linecap="round" filter="url(#gg)"
+            transform="rotate(-90)" stroke-dasharray="251.33" stroke-dashoffset="251.33">
+      <animate attributeName="stroke-dashoffset" from="251.33" to="7.54" dur="1.5s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text y="2" text-anchor="middle" font-size="19" font-weight="700" fill="#e6edf3" class="val">97<tspan font-size="10" fill="#8b949e">%</tspan></text>
+    <text y="15" text-anchor="middle" font-size="6" letter-spacing="1" fill="#6e7681" class="val">PROFICIENCY</text>
+    <text y="60" text-anchor="middle" font-size="9.5" font-weight="600" letter-spacing="0.5" fill="#c9d1d9">EXECUTION LANGUAGES</text>
+    <text y="72" text-anchor="middle" font-size="7" class="mono meta" fill="#8b949e">sub-microsecond hot paths</text>
+    <text y="82" text-anchor="middle" font-size="6.5" class="mono meta" fill="#636e7b">lock-free · SIMD-optimized kernels</text>
+  </g>
 
-  <!-- Axis Labels (outside polygon) -->
-  <!-- Systems Engineering (top) -->
-  <text x="260" y="40" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="middle" font-weight="bold" filter="url(#soft-glow)">SYSTEMS ENGINEERING</text>
-  <text x="260" y="52" font-family="monospace" font-size="8" fill="#00ff41" text-anchor="middle" opacity="0.5">96%</text>
+  <!-- 2: SYSTEMS ENGINEERING 96% -->
+  <g transform="translate(420,108)">
+    <circle r="48" fill="none" stroke="#30363d" stroke-width="1.4" stroke-dasharray="1.4 6.6" opacity="0.5"/>
+    <circle r="40" fill="none" stroke="#1c2128" stroke-width="7"/>
+    <circle r="40" fill="none" stroke="url(#g2)" stroke-width="7" stroke-linecap="round" filter="url(#gg)"
+            transform="rotate(-90)" stroke-dasharray="251.33" stroke-dashoffset="251.33">
+      <animate attributeName="stroke-dashoffset" from="251.33" to="10.05" dur="1.5s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text y="2" text-anchor="middle" font-size="19" font-weight="700" fill="#e6edf3" class="val">96<tspan font-size="10" fill="#8b949e">%</tspan></text>
+    <text y="15" text-anchor="middle" font-size="6" letter-spacing="1" fill="#6e7681" class="val">PROFICIENCY</text>
+    <text y="60" text-anchor="middle" font-size="9.5" font-weight="600" letter-spacing="0.5" fill="#c9d1d9">SYSTEMS ENGINEERING</text>
+    <text y="72" text-anchor="middle" font-size="7" class="mono meta" fill="#8b949e">custom cryptographic primitives</text>
+    <text y="82" text-anchor="middle" font-size="6.5" class="mono meta" fill="#636e7b">high-frequency on-chain execution</text>
+  </g>
 
-  <!-- Neural Architecture (top-right) -->
-  <text x="394" y="111" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="start" font-weight="bold" filter="url(#soft-glow)">NEURAL ARCHITECTURE</text>
-  <text x="394" y="123" font-family="monospace" font-size="8" fill="#00ff41" text-anchor="start" opacity="0.5">95%</text>
+  <!-- 3: NEURAL ARCHITECTURE 95% -->
+  <g transform="translate(668,108)">
+    <circle r="48" fill="none" stroke="#30363d" stroke-width="1.4" stroke-dasharray="1.4 6.6" opacity="0.5"/>
+    <circle r="40" fill="none" stroke="#1c2128" stroke-width="7"/>
+    <circle r="40" fill="none" stroke="url(#g3)" stroke-width="7" stroke-linecap="round" filter="url(#gg)"
+            transform="rotate(-90)" stroke-dasharray="251.33" stroke-dashoffset="251.33">
+      <animate attributeName="stroke-dashoffset" from="251.33" to="12.57" dur="1.5s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text y="2" text-anchor="middle" font-size="19" font-weight="700" fill="#e6edf3" class="val">95<tspan font-size="10" fill="#8b949e">%</tspan></text>
+    <text y="15" text-anchor="middle" font-size="6" letter-spacing="1" fill="#6e7681" class="val">PROFICIENCY</text>
+    <text y="60" text-anchor="middle" font-size="9.5" font-weight="600" letter-spacing="0.5" fill="#c9d1d9">NEURAL ARCHITECTURE</text>
+    <text y="72" text-anchor="middle" font-size="7" class="mono meta" fill="#8b949e">frontier-scale model training</text>
+    <text y="82" text-anchor="middle" font-size="6.5" class="mono meta" fill="#636e7b">autonomous multi-agent swarms · ZKML</text>
+  </g>
 
-  <!-- Protocol Engineering (bottom-right) -->
-  <text x="392" y="245" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="start" font-weight="bold" filter="url(#soft-glow)">PROTOCOL ENGINEERING</text>
-  <text x="392" y="257" font-family="monospace" font-size="8" fill="#00ff41" text-anchor="start" opacity="0.5">92%</text>
+  <!-- 4: DISTRIBUTED INFRASTRUCTURE 94% -->
+  <g transform="translate(172,247)">
+    <circle r="48" fill="none" stroke="#30363d" stroke-width="1.4" stroke-dasharray="1.4 6.6" opacity="0.5"/>
+    <circle r="40" fill="none" stroke="#1c2128" stroke-width="7"/>
+    <circle r="40" fill="none" stroke="url(#g4)" stroke-width="7" stroke-linecap="round" filter="url(#gg)"
+            transform="rotate(-90)" stroke-dasharray="251.33" stroke-dashoffset="251.33">
+      <animate attributeName="stroke-dashoffset" from="251.33" to="15.08" dur="1.5s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text y="2" text-anchor="middle" font-size="19" font-weight="700" fill="#e6edf3" class="val">94<tspan font-size="10" fill="#8b949e">%</tspan></text>
+    <text y="15" text-anchor="middle" font-size="6" letter-spacing="1" fill="#6e7681" class="val">PROFICIENCY</text>
+    <text y="60" text-anchor="middle" font-size="9.5" font-weight="600" letter-spacing="0.5" fill="#c9d1d9">DISTRIBUTED INFRASTRUCTURE</text>
+    <text y="72" text-anchor="middle" font-size="7" class="mono meta" fill="#8b949e">millions of req/s · zero-downtime</text>
+    <text y="82" text-anchor="middle" font-size="6.5" class="mono meta" fill="#636e7b">globally sharded validator clusters</text>
+  </g>
 
-  <!-- Distributed Infrastructure (bottom) -->
-  <text x="260" y="328" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="middle" font-weight="bold" filter="url(#soft-glow)">DISTRIBUTED INFRASTRUCTURE</text>
-  <text x="260" y="340" font-family="monospace" font-size="8" fill="#00ff41" text-anchor="middle" opacity="0.5">94%</text>
+  <!-- 5: PROTOCOL ENGINEERING 92% -->
+  <g transform="translate(420,247)">
+    <circle r="48" fill="none" stroke="#30363d" stroke-width="1.4" stroke-dasharray="1.4 6.6" opacity="0.5"/>
+    <circle r="40" fill="none" stroke="#1c2128" stroke-width="7"/>
+    <circle r="40" fill="none" stroke="url(#g5)" stroke-width="7" stroke-linecap="round" filter="url(#gg)"
+            transform="rotate(-90)" stroke-dasharray="251.33" stroke-dashoffset="251.33">
+      <animate attributeName="stroke-dashoffset" from="251.33" to="20.11" dur="1.5s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text y="2" text-anchor="middle" font-size="19" font-weight="700" fill="#e6edf3" class="val">92<tspan font-size="10" fill="#8b949e">%</tspan></text>
+    <text y="15" text-anchor="middle" font-size="6" letter-spacing="1" fill="#6e7681" class="val">PROFICIENCY</text>
+    <text y="60" text-anchor="middle" font-size="9.5" font-weight="600" letter-spacing="0.5" fill="#c9d1d9">PROTOCOL ENGINEERING</text>
+    <text y="72" text-anchor="middle" font-size="7" class="mono meta" fill="#8b949e">zk-rollups &amp; trustless bridges</text>
+    <text y="82" text-anchor="middle" font-size="6.5" class="mono meta" fill="#636e7b">formally-verified smart contracts</text>
+  </g>
 
-  <!-- Quantum Computing (bottom-left) -->
-  <text x="122" y="248" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="end" font-weight="bold" filter="url(#soft-glow)">QUANTUM COMPUTING</text>
-  <text x="122" y="260" font-family="monospace" font-size="8" fill="#00ff41" text-anchor="end" opacity="0.5">88%</text>
+  <!-- 6: QUANTUM COMPUTING 88% -->
+  <g transform="translate(668,247)">
+    <circle r="48" fill="none" stroke="#30363d" stroke-width="1.4" stroke-dasharray="1.4 6.6" opacity="0.5"/>
+    <circle r="40" fill="none" stroke="#1c2128" stroke-width="7"/>
+    <circle r="40" fill="none" stroke="url(#g6)" stroke-width="7" stroke-linecap="round" filter="url(#gg)"
+            transform="rotate(-90)" stroke-dasharray="251.33" stroke-dashoffset="251.33">
+      <animate attributeName="stroke-dashoffset" from="251.33" to="30.16" dur="1.5s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text y="2" text-anchor="middle" font-size="19" font-weight="700" fill="#e6edf3" class="val">88<tspan font-size="10" fill="#8b949e">%</tspan></text>
+    <text y="15" text-anchor="middle" font-size="6" letter-spacing="1" fill="#6e7681" class="val">PROFICIENCY</text>
+    <text y="60" text-anchor="middle" font-size="9.5" font-weight="600" letter-spacing="0.5" fill="#c9d1d9">QUANTUM COMPUTING</text>
+    <text y="72" text-anchor="middle" font-size="7" class="mono meta" fill="#8b949e">error-corrected qubit circuits</text>
+    <text y="82" text-anchor="middle" font-size="6.5" class="mono meta" fill="#636e7b">quantum-accelerated optimization</text>
+  </g>
 
-  <!-- Execution Languages (top-left) -->
-  <text x="126" y="110" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="end" font-weight="bold" filter="url(#soft-glow)">EXECUTION LANGUAGES</text>
-  <text x="126" y="122" font-family="monospace" font-size="8" fill="#00ff41" text-anchor="end" opacity="0.5">97%</text>
-
-  <!-- ========================= RIGHT PANEL: LEGEND ========================= -->
-  <!-- Legend container removed for flawless blend -->
-  <text x="644" y="42" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="middle" opacity="0.7">[ PROFICIENCY SCORES ]</text>
-  <line x1="530" y1="50" x2="760" y2="50" stroke="#00ff41" stroke-width="0.5" opacity="0.3"/>
-
-  <!-- SYSTEMS ENGINEERING -->
-  <text x="534" y="72" font-family="monospace" font-size="9" fill="#00ff41">SYSTEMS ENGINEERING</text>
-  <rect x="534" y="78" width="218" height="5" rx="2" fill="#001900"/>
-  <rect x="534" y="78" width="209" height="5" rx="2" fill="#00ff41" opacity="0.85"/>
-  <text x="755" y="83" font-family="monospace" font-size="7" fill="#00ff41" text-anchor="end" opacity="0.6">96%</text>
-
-  <!-- NEURAL ARCHITECTURE -->
-  <text x="534" y="103" font-family="monospace" font-size="9" fill="#00ff41">NEURAL ARCHITECTURE</text>
-  <rect x="534" y="109" width="218" height="5" rx="2" fill="#001900"/>
-  <rect x="534" y="109" width="207" height="5" rx="2" fill="#00ff41" opacity="0.85"/>
-  <text x="755" y="114" font-family="monospace" font-size="7" fill="#00ff41" text-anchor="end" opacity="0.6">95%</text>
-
-  <!-- PROTOCOL ENGINEERING -->
-  <text x="534" y="134" font-family="monospace" font-size="9" fill="#00ff41">PROTOCOL ENGINEERING</text>
-  <rect x="534" y="140" width="218" height="5" rx="2" fill="#001900"/>
-  <rect x="534" y="140" width="201" height="5" rx="2" fill="#00ff41" opacity="0.85"/>
-  <text x="755" y="145" font-family="monospace" font-size="7" fill="#00ff41" text-anchor="end" opacity="0.6">92%</text>
-
-  <!-- DISTRIBUTED INFRASTRUCTURE -->
-  <text x="534" y="165" font-family="monospace" font-size="9" fill="#00ff41">DISTRIBUTED INFRASTRUCTURE</text>
-  <rect x="534" y="171" width="218" height="5" rx="2" fill="#001900"/>
-  <rect x="534" y="171" width="205" height="5" rx="2" fill="#00ff41" opacity="0.85"/>
-  <text x="755" y="176" font-family="monospace" font-size="7" fill="#00ff41" text-anchor="end" opacity="0.6">94%</text>
-
-  <!-- QUANTUM COMPUTING -->
-  <text x="534" y="196" font-family="monospace" font-size="9" fill="#00ff41">QUANTUM COMPUTING</text>
-  <rect x="534" y="202" width="218" height="5" rx="2" fill="#001900"/>
-  <rect x="534" y="202" width="192" height="5" rx="2" fill="#00ff41" opacity="0.85"/>
-  <text x="755" y="207" font-family="monospace" font-size="7" fill="#00ff41" text-anchor="end" opacity="0.6">88%</text>
-
-  <!-- EXECUTION LANGUAGES -->
-  <text x="534" y="227" font-family="monospace" font-size="9" fill="#00ff41">EXECUTION LANGUAGES</text>
-  <rect x="534" y="233" width="218" height="5" rx="2" fill="#001900"/>
-  <rect x="534" y="233" width="211" height="5" rx="2" fill="#00ff41" opacity="0.85"/>
-  <text x="755" y="238" font-family="monospace" font-size="7" fill="#00ff41" text-anchor="end" opacity="0.6">97%</text>
-
-  <line x1="530" y1="252" x2="760" y2="252" stroke="#00ff41" stroke-width="0.5" opacity="0.3"/>
-
-  <!-- Overall -->
-  <text x="644" y="272" font-family="monospace" font-size="9" fill="#00ff41" text-anchor="middle">OVERALL INDEX</text>
-  <rect x="534" y="279" width="218" height="8" rx="3" fill="#001900"/>
-  <rect x="534" y="279" width="205" height="8" rx="3" fill="#00ff41" opacity="0.7"/>
-  <text x="644" y="287" font-family="monospace" font-size="7" fill="#000" text-anchor="middle" font-weight="bold">94%</text>
-
-  <text x="644" y="314" font-family="monospace" font-size="8" fill="#00ff41" text-anchor="middle" opacity="0.5" class="blink">[ COMPILING PARADIGMS... ]</text>
-  <text x="644" y="330" font-family="monospace" font-size="7.5" fill="#00ff41" text-anchor="middle" opacity="0.3">STATUS: HYPER OPTIMIZED</text>
-
+  <!-- Footer -->
+  <g transform="translate(42,0)">
+    <line x1="0" y1="344" x2="756" y2="344" stroke="#21262d" stroke-width="1"/>
+    <circle cx="4" cy="355" r="3" fill="#56d4dd" class="cap"/>
+    <text x="14" y="358" font-size="8" class="mono" fill="#636e7b">STATUS: HYPER OPTIMIZED</text>
+    <text x="756" y="358" text-anchor="end" font-size="8" class="mono" fill="#636e7b">github.com/bhavy2908</text>
   </g>
 </svg>

@@ -1,16 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="40" viewBox="0 0 800 40">
-  <rect width="100%" height="100%" fill="#0d1117" />
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="46" viewBox="0 0 800 46">
   <defs>
+    <linearGradient id="hdAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#56d4dd"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="hdText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c9d1d9"/>
+      <stop offset="50%" stop-color="#e6edf3"/>
+      <stop offset="100%" stop-color="#c9d1d9"/>
+    </linearGradient>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&amp;display=swap');
-      .text {
-        font-family: 'Fira Code', monospace;
-        font-size: 10px;
-        fill: #00ff41;
-        text-anchor: middle;
-        dominant-baseline: middle;
-      }
+      @keyframes hd-shimmer { 0%,100%{opacity:0.85} 50%{opacity:1} }
+      .hd-line { animation: hd-shimmer 4s ease-in-out infinite; }
     </style>
   </defs>
-  <text x="400" y="20" class="text">Protocol Architect specializing in high performance systems and autonomous AI swarms.</text>
+
+  <!-- tagline -->
+  <text x="400" y="18" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Segoe UI', 'Helvetica Neue', system-ui, sans-serif"
+        font-size="13" letter-spacing="0.4" fill="url(#hdText)" class="hd-line">Protocol Architect specializing in high performance systems and autonomous AI swarms.</text>
+
+  <!-- underline gradient with end dots -->
+  <circle cx="298" cy="34" r="2" fill="#818cf8"/>
+  <rect x="304" y="33" width="192" height="1.6" rx="0.8" fill="url(#hdAccent)" opacity="0.6"/>
+  <circle cx="502" cy="34" r="2" fill="#bc8cff"/>
 </svg>
